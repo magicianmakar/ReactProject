@@ -5,9 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const name = "Hello World!";
+const element = <h1>Hello , { name }.Welcome to Geeks for Geeks</h1>
 root.render(
+  
   <React.StrictMode>
-    <App />
+
+    <App />    element,
+  document.getElementById("root")
   </React.StrictMode>
 );
 
